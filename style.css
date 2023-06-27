@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    margin: 0 0;
+}
+
+header{text-align: center;
+    margin: auto;
+    background-color: #0D0D0D;}
+header > h1{
+    color: white;
+    padding: 10px 10px;
+    margin: 0px 10px;
+}
+menu > a:active{
+    
+    color: #0D0D0D;
+}
+menu > a:hover{
+    background-color: #BF3604;
+    transition-delay: 60ms;
+    transition-duration: 1s;
+}
+menu > a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 50px;
+    color: white;
+    text-decoration: none;
+     
+}
+menu{
+    margin: 0px 0px;
+    background-color: #F25C05;
+}
